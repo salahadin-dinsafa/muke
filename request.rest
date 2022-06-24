@@ -1,0 +1,23 @@
+GET http://localhost:3000/user
+###
+POST http://localhost:3000/user/signup
+Content-Type: application/json
+
+{
+    "name": "falmata",
+    "password":"itqan"
+}
+###
+GET http://localhost:3000/user/62b5d2697b1528f6ee0e5618
+##
+DELETE http://localhost:3000/user/62b5d2697b1528f6ee0e5618
+###
+DELETE http://localhost:3000/user/
+###
+POST http://localhost:3000/user/login
+Content-Type: application/json
+{
+    "name": "Nizam",
+    "password":"itqan"
+}
+###
